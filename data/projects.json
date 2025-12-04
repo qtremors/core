@@ -88,7 +88,7 @@
     ]
   },
   {
-    "id": "repotree",
+    "id": "rtree",
     "title": "RepoTree Generator",
     "category": "CLI",
     "image": "assets/img/rtree-preview.png",
@@ -98,7 +98,21 @@
     "installation": "pip install repotree",
     "badges": ["tech-python", "tech-cli", "tech-git"],
     "links": [
-      { "text": "GitHub Repo", "url": "https://github.com/qtremors/file-tree-generator", "type": "secondary" }
+      { "text": "GitHub Repo", "url": "https://github.com/qtremors/rtree", "type": "secondary" }
+    ]
+  },
+  {
+    "id": "locr",
+    "title": "Lines of Code in Repo",
+    "category": "CLI",
+    "image": "assets/img/locr-preview.png",
+    "bg_color": "#ffffff",
+    "description": "CLI tool to count lines of code in repo.",
+    "full_details": "Automatically respects .gitignore rules to count lines of code in your repo.",
+    "installation": "pip install locr",
+    "badges": ["tech-python", "tech-cli", "tech-git"],
+    "links": [
+      { "text": "GitHub Repo", "url": "https://github.com/qtremors/locr", "type": "secondary" }
     ]
   },
   {
